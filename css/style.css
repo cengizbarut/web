@@ -3,4 +3,45 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
+}
+body{
+font-size: 'montserrat', sans-serif;
+
+}
+header{
+background: #a80404;
+border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+position: fixed;
+width: 100%;
+z-index: 5;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+width: 80%;
+padding: 10px 0;
+
+}
+.nav_links{
+display: flex;
+
+}
+.nav_links li a{
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    font-weight: bold;
+}
+.nav_links li a:hover{
+    background: #fff;
+    color: #a80404;
+}
+.logo h2 a{
+color: #fff;
+font-weight: bold;
 }
