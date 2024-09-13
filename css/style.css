@@ -52,13 +52,12 @@ font-weight: bold;
     margin: 20px auto;
 }
 .banner{
+    position: absolute;
+    top: 70px;
     
 width: 1170px;
 height: 500px;
 margin-top: 10px;
-
-
-
 
 
 }
